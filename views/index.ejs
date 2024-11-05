@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheet/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="first-page" class="h-screen w-full pl-20 pt-8 pr-20 pb-12 bg-[url('../images/1967-mustang-fastback-car-electric-car-classic-car-wallpaper-preview.jpg')] bg-cover bg-center ">
+        <div id="nav" class="bg-neutral-50 h-12 w-full rounded-3xl flex px-4 py-3 justify-between text-center">
+            <div id="logo" class="text-slate-950 font-bold">CARENT</div>
+            <div id="options" class="flex text-center gap-6 ml-[100px]">
+                <h5 class="hover:font-bold cursor-pointer">Home</h5>
+                <h5 class="hover:font-bold cursor-pointer">Services</h5>
+                <h5 class="hover:font-bold cursor-pointer">Fleet</h5>
+                <h5 class="hover:font-bold cursor-pointer">FAQs</h5>
+                <h5 class="hover:font-bold cursor-pointer">Contact</h5>
+            </div>
+            <div id="register" class="flex items-center gap-4">
+                <div class="search-container">
+                    <div class="flex items-center border border-gray-300 rounded-md p-2 bg-white">
+                        <i class="ri-search-2-line"></i>
+                        <input type="text" class="flex-1 p-1 outline-none text-sm" placeholder="Search">
+                    </div>
+                </div>
+                <button class="bg-zinc-950 rounded-full h-10 w-10 text-neutral-50 pt-0 text-xl"><i class="ri-user-line"></i></button>
+            </div>
+        </div>
+
+        <div id="head-line" class="flex pt-[101px] justify-between">
+            <h1 class="text-8xl font-bold leading-11 mr-[100px] text-neutral-50 tracking-tighter">Vintage car rental</h1>
+            <p class="text-slate-400 ml-[300px] pt-[180px] tracking-tighter">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, perspiciatis. Sit fugiat laboriosam voluptatibus at soluta officiis hic consequatur ut corrupti veritatis, aut reprehenderit fuga suscipit nemo esse eius doloribus debitis quibusdam! Quaerat, esse exercitationem!</p>
+        </div>
+        <div id="properties" class="mt-[42px]">
+            <div id="basis" class="flex outline-none ml-[280px]">
+                <div id="prop" class="text-xl font-normal w-48 h-[70px] pt-[17px] pl-[60px] bg-white">Distance</div>
+                <div id="prop" class="text-xl font-semibold w-48 h-[70px] pt-[17px] pl-[60px] bg-slate-400">Hourly</div>
+                <div id="prop" class="text-xl font-bold w-48 h-[70px] pt-[17px] pl-[60px] bg-slate-600">Flat rate</div>
+            </div>
+            <div id="attributes" class="flex ml-[50px]">
+                <div id="pickup-address" class="w-[80%] h-[70px] border-gray-300 px-8 py-3 bg-neutral-50 flex">
+                    <div id="entries" >
+                        <h1 class="font-normal">Pick Up Address</h1>
+                        <input type="text" name="Pick Up Address" id="" placeholder="From:Address" class="font-bold outline-none">
+                    </div>
+                    <div id="break" class="w-[0px] h-[50px] border border-gray-600 ml-[10px]"></div>
+                    <div id="entries" class="ml-[40px]">
+                        <h1 class="font-normal">Drop Off Address</h1>
+                        <input type="text" name="Drop Off Address" id="" placeholder="To:Address" class="font-bold outline-none">
+                    </div>
+                    <div id="break" class="w-[0px] h-[50px] border border-gray-600 ml-[10px]"></div>
+                    <div id="entries" class="ml-[40px]">
+                        <h1 class="font-normal">Pick Up Date</h1>
+                        <input type="date" name="Pickup-date" id="" class="font-bold text-slate-400 outline-none">
+                    </div>
+                    <div id="break" class="w-[0px] h-[50px] border border-gray-600 ml-[10px]"></div>
+                    <div id="entries" class="ml-[40px]">
+                        <h1 class="font-normal">Pick Up time</h1>
+                        <input type="time" name="pickup-time" id="" class="font-bold text-slate-400 outline-none">
+                    </div>
+                </div>
+                <div id="Search" class="w-[150px] h-[70px] border-gray-300  bg-blue-300">
+                    <button class="w-[150px] h-[70px] outline-none hover:bg-blue-400 cursor-pointer">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="second-page" class="h-screen w-full px-20 py-8">
+        <h1 class="text-8xl font-bold tracking-tighter">Car Category</h1>
+        <div id="cards" class="flex justify-evenly">
+            <div id="car" class="w-[280px] h-[370px] border border-gray-600 mt-[80px] bg-[url('../images/photo-1677440389473-32cf5e679891.avif')] bg-cover bg-center px-[30px] py-[15px] text-5xl font-bold tracking-tighter text-neutral-50">
+                <h1 class="text-5xl font-bold tracking-tighter text-neutral-50">Mercedes-Benz</h1>
+                <button class="text-4xl h-[50px] w-[50px] bg-neutral-50  rounded-full ml-[180px] mt-[180px] text-zinc-950 hover:bg-blue-400 hover:text-neutral-50"><i class="ri-arrow-right-up-line"></i></button>
+            </div>
+            <div id="car" class="w-[280px] h-[370px] border border-gray-600 mt-[80px] bg-[url('../images/110123272_2771724566437426_4099085402229903498_n.jpg')] bg-cover bg-center px-[30px] py-[15px] text-5xl font-bold tracking-tighter">
+                <h1 class="text-5xl font-bold tracking-tighter text-slate-950">Audi</h1>
+                <button class="text-4xl h-[50px] w-[50px] bg-neutral-50 rounded-full ml-[180px] mt-[230px] text-zinc-950 hover:bg-blue-400 hover:text-neutral-50"><i class="ri-arrow-right-up-line"></i></button>
+            </div>
+            <div id="car" class="w-[280px] h-[370px] border border-gray-600 mt-[80px] bg-[url('../images/eb91d91e8c01cbc2ffcd7fd45762226e.jpg')] bg-cover bg-center px-[30px] py-[15px] text-5xl font-bold tracking-tighter text-neutral-50">
+                <h1 class="text-5xl font-bold tracking-tighter text-neutral-50">BMW</h1>
+                <button class="text-4xl h-[50px] w-[50px] bg-neutral-50 rounded-full ml-[180px] mt-[230px] text-zinc-950 hover:bg-blue-400 hover:text-neutral-50"><i class="ri-arrow-right-up-line"></i></button>
+            </div>
+            <div id="car" class="w-[280px] h-[370px] border border-gray-600 mt-[80px] bg-[url('../images/cyberpunk-2077-4k-911-ii-930-turbo-porsche-car-hd-wallpaper-preview.jpg')] bg-center bg-cover px-[30px] py-[15px] text-5xl font-bold tracking-tighter">
+                <h1 class="text-5xl font-bold tracking-tighter text-slate-950">Porsche</h1>
+                <button class="text-4xl h-[50px] w-[50px] bg-neutral-50 rounded-full ml-[180px] mt-[230px] text-zinc-950 hover:bg-blue-400 hover:text-neutral-50"><i class="ri-arrow-right-up-line"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="third-page" class="h-screen w-full bg-neutral-300 px-20 py-8 font-bold">
+        <div id="title" class="px-[10px] py-[20px] flex justify-between">
+            <h1 class="text-5xl tracking-tighter">Trend vehicles</h1>
+            <button class="h-[40px] w-[120px] bg-blue-300 px-[15px] py-[8px] mt-[8px] mr-[20px] rounded-3xl hover:bg-blue-400">View all <i class="ri-arrow-right-line"></i></button>
+        </div>
+
+        <div id="collection-cards" class="flex justify-evenly mt-[80px]">
+            <div id="car" class="h-[370px] w-[290px] px-[15px] py-[15px] border border-slate-900 bg-[url('../images/mercedes-benz-300sl-gullwing-front-view-red-mercedes-benz-30.webp')] bg-center bg-cover">
+                <div id="name" class="flex flex-col justify-between">
+                    <div id="car-name">
+                        <h1 class="text-3xl font-bold text-neutral-50 tracking-tighter">Mercedes-Benz 300 SL gullwing</h1>
+                    </div>
+                    <div id="price" class="flex justify-between mt-[240px]">
+                        <h5 class="text-neutral-50">$150/day</h5>
+                        <button class="bg-neutral-50 hover:bg-blue-400 text-sm px-[6px] py-[2px] rounded-3xl">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div id="car" class="h-[370px] w-[290px] px-[15px] py-[15px] border border-slate-900 bg-[url('../images/f41932be487cc59c9ccc2955d5918c8d47e99d3d.webp')] bg-center bg-cover">
+                <div id="name" class="flex flex-col justify-between">
+                    <div id="car-name">
+                        <h1 class="text-3xl font-bold text-neutral-50 tracking-tighter">Audi 200</h1>
+                    </div>
+                    <div id="price" class="flex justify-between mt-[275px]">
+                        <h5 class="text-neutral-50">$150/day</h5>
+                        <button class="bg-neutral-50 hover:bg-blue-400 text-sm px-[6px] py-[2px] rounded-3xl">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div id="car" class="h-[370px] w-[290px] px-[15px] py-[15px] border border-slate-900 bg-[url('../images/bmw-e32-tuning-bmv-tyuning-206.webp')] bg-center bg-cover">
+                <div id="name" class="flex flex-col justify-between">
+                    <div id="car-name">
+                        <h1 class="text-3xl font-bold text-neutral-50 tracking-tighter text-slate-950">BMW E32</h1>
+                    </div>
+                    <div id="price" class="flex justify-between mt-[275px]">
+                        <h5 class="text-neutral-50">$150/day</h5>
+                        <button class="bg-neutral-50 hover:bg-blue-400 text-sm px-[6px] py-[2px] rounded-3xl">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div id="car" class="h-[370px] w-[290px] px-[15px] py-[15px] border border-slate-900 bg-[url('../images/badfon-porsche-911-carrera-rsr-turbo.webp')] bg-center bg-cover">
+                <div id="name" class="flex flex-col justify-between">
+                    <div id="car-name">
+                        <h1 class="text-3xl font-bold text-neutral-50 tracking-tighter text-slate-950">Badfon Porsche 911</h1>
+                    </div>
+                    <div id="price" class="flex justify-between mt-[275px]">
+                        <h5 class="text-neutral-50">$150/day</h5>
+                        <button class="bg-neutral-50 hover:bg-blue-400 text-sm px-[6px] py-[2px] rounded-3xl">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fourth-page" class="h-[150px] w-full bg-zinc-950 flex justify-evenly">
+        <div id="booking" class="flex justify-between px-[40px] py-[50px] items-center text-neutral-50 bg-zinc-950 h-[150px] w-[380px] hover:bg-zinc-900">
+            <i class="ri-smartphone-line text-4xl"></i>
+            <h1 class="text-sm tracking-tighter">Seamless booking</h1>
+        </div>
+        <div id="premium" class="flex justify-between gap-12 px-[40px] py-[50px] items-center text-neutral-50 bg-zinc-950 h-[150px] w-[380px] hover:bg-zinc-900">
+            <i class="ri-vip-diamond-line text-4xl"></i>
+            <h1 class="text-sm tracking-tighter">Premium previlges for regular customers</h1>
+        </div>
+        <div id="service" class="flex justify-between gap-12 px-[40px] py-[50px] items-center text-neutral-50 bg-zinc-950 h-[150px] w-[380px] hover:bg-zinc-900">
+            <i class="ri-settings-5-line text-4xl"></i>
+            <h1 class="text-sm tracking-tighter">Change or cancel your booking up to 72 hours before the time of pickup</h1>
+        </div>
+        <div id="recharge" class="flex justify-between px-[40px] py-[50px] items-center text-neutral-50 bg-zinc-950 h-[150px] w-[380px] hover:bg-zinc-900">
+            <i class="ri-exchange-box-line text-4xl"></i>
+            <h1 class="text-sm tracking-tighter">No recharging fees</h1>
+        </div>
+    </div>
+
+    <div id="fifth-page" class=" h-screen w-full px-[100px] py-[80px] bg-[url('../images/wp7201215.jpg')] bg-center bg-cover">
+        <h1 class="text-7xl text-neutral-50 tracking-tighter  font-bold">Book mustang with a <br> big discount</h1>
+        <button class="bg-blue-300 mt-[140px] text-2xl text-neutral-50 px-[30px] py-[10px] rounded-3xl hover:bg-blue-500">Book Now</button>
+    </div>
+
+    <div id="sixth-page" class="h-[500px] w-full px-[80px] py-[40px] flex justify-between">
+        <div id="logo-newsletter" class="w-[300px] h-[550px] mt-[20px] px-[40px] py-[80px]">
+            <h1 class="text-3xl tracking-tighter font-semibold">CARENT</h1>
+            <h4 class="font-bold text-sm tracking-tighter mt-[40px]">Subscribe to the news letter</h4>
+            <div id="email" class="h-[40px] w-[210px] mt-[20px] border border-slate-900 rounded-3xl flex justify-between items-center">
+                <input type="email" name="email" placeholder="Email" id="" class="h-[35px] w-[170px] pl-[10px] outline-none rounded-3xl text-sm">
+                <button class="text-xl text-neutral-50 bg-zinc-950 rounded-full mr-[3px] w-[35px] h-[35px] pl-[3px] pt-[1px]"><i class="ri-arrow-right-line"></i></button>
+            </div>
+        </div>
+        <div id="city-rides" class="w-[700px] h-[490px] mt-[20px] flex justify-between">
+            <div id="top-cities" class="h-[550px] w-[220px] px-[40px] py-[80px]">
+                <h1 class="text-xl font-bold tracking-tighter">Top Cities</h1>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600 mt-[30px]">New York</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">London</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Berlin</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Los Angeles</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Paris</h3>
+            </div>
+            <div id="top-cities" class="h-[550px] w-[220px] px-[40px] py-[80px]">
+                <h1 class="text-xl font-bold tracking-tighter">Explore</h1>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600 mt-[30px]">Intercity rides</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Limousine service</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Chauffer service</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Private car service</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Airport Transfer</h3>
+            </div>
+            <div id="top-cities" class="h-[550px] w-[250px] px-[40px] py-[80px]">
+                <h1 class="text-xl font-bold tracking-tighter">Intercity-rides</h1>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600 mt-[30px]">East Hampton - New York</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">New York - Washington</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">New York - Philadelphia</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">Abu Dhabi - Dubai</h3>
+                <h3 class="text-sm font-normal tracking-tighter text-slate-600">London - Birmingham</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="w-full h-[110px] bg-slate-300 text-slate-600 flex justify-between px-[40px] py-[30px] items-center">
+        <div id="copyright">
+            <i class="ri-copyright-line"></i>2024|CARENT
+        </div>
+        <div id="accessibility">
+            <div id="aces" class="flex gap-4">
+                <h3>Terms</h3>
+                <h3>Privacy policy</h3>
+                <h3>Legal notice</h3>
+                <h3>Accessibility</h3>
+            </div>
+        </div>
+        <div id="connection" class="text-xl">
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+        </div>
+    </div>
+    
+    <script src="../javascripts/script.js"></script>
+</body>
+</html>
